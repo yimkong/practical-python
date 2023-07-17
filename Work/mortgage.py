@@ -22,5 +22,4 @@ while principal > 0:
 
     print(month, round(total_paid, 2), round(principal, 2))
 
-print('Total month', month)
-print('Total paid', total_paid)
+print(f'Total month {month:<10d} \nTotal paid ${total_paid:10.2f}')
